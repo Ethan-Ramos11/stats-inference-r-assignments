@@ -22,8 +22,14 @@
 p_two <- (1/8) + (1/8)
 p_two 
 
-#1c - 
+#1c - .3333333 or 1/3
+# P(X >= 2 | X >= 1) = P(X >= 2 ∩ X >= 1) / P(X >= 1)
+# Since X >= 2 implies X >= 1 P(X >= 2 ∩ X >= 1) =  P(X >= 2)
+p_one <- (1/2) + (1/8) + (1/8)
+p_one
 
+p_two_if_one <- p_two / p_one
+p_two_if_one
 #1d - 
 
 #5 - 1.125
