@@ -14,10 +14,13 @@
 
 #1a - Valid probability mass function
 # (1/4) + (1/2) + (1/8) + (1/8) = 1
-# All probabilities are positive and they sum to 1 so it is a valid probabillity mass function
+# All probabilities are positive and they sum to 1 so it is a valid probability mass function
 
-#1b - 
+#1b - 0.625
+#To find p(X >= 2) you must multiply p(x) * x and sum it for all values >= 2
 
+p_two <- ((1/8) * 2) + ((1/8) * 3)
+p_two 
 #1c - 
 
 #1d - 
