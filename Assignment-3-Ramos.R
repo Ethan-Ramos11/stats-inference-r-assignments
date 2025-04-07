@@ -43,4 +43,14 @@ p_one
 m <- ((1/4) * 0) + (.5 * 1) + ((1/8) * 2) + ((1/8) * 3)
 m 
 
-#8
+#8 - 3.666667
+# There are 6 possible ways to draw two numbers of a set of 3 numbers without replacement. 
+# Each will have an equal probability because it is random being 1/6 (1/3 for the first choice * 
+#1/2 for the second choice) so to calculated the expected value multiple 1/6 by the possible products 
+# Possible products are 2, 3, and 6 each happening twice depending on the order of the numbers drawn
+# You can change the probability to 1/3 accounting for two outcomes yielding the same result 
+#(1/6 * 2)  = 1/3
+
+m_hat <- (1/3 * 2) + (1/3 * 3) + (1/3 * 6)
+m_hat
+
