@@ -6,8 +6,8 @@
 #Answers: 
 #Problem 1a: Valid probability mass function 
 #Problem 1b: 0.625
-#Problem 1c:
-#Problem 1d:
+#Problem 1c: 1/3 
+#Problem 1d: 3/4
 
 #Problem 5: 1.125
 #---------------
@@ -30,7 +30,10 @@ p_one
 
 p_two_if_one <- p_two / p_one
 p_two_if_one
-#1d - 
+
+#1d - 3/4 or .75
+#Since X >= 2 implies X >= 1 for (X >= 2 U X >= 1) = X >= 1
+p_one 
 
 #5 - 1.125
 #To compute the mean of random variable X you multiply 
