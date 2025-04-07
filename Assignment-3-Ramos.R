@@ -5,7 +5,7 @@
 #---------------
 #Answers: 
 #Problem 1a: Valid probability mass function 
-#Problem 1b: 
+#Problem 1b: 0.625
 #Problem 1c:
 #Problem 1d:
 
@@ -16,11 +16,12 @@
 # (1/4) + (1/2) + (1/8) + (1/8) = 1
 # All probabilities are positive and they sum to 1 so it is a valid probability mass function
 
-#1b - 0.625
-#To find p(X >= 2) you must multiply p(x) * x and sum it for all values >= 2
+#1b - 0.25
+#To find p(X >= 2) you must sum all the probabilities of x >= 2 (2 and 3)
 
-p_two <- ((1/8) * 2) + ((1/8) * 3)
+p_two <- (1/8) + (1/8)
 p_two 
+
 #1c - 
 
 #1d - 
