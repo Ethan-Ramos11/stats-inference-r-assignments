@@ -1,0 +1,34 @@
+# R specific files
+.RData
+.Rhistory
+.Rapp.history
+.Rproj.user/
+.Ruserdata
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# RStudio files
+*.Rproj
+.Rproj.user/
+
+# Temporary files
+*.Rtmp
+*.Rapp.history
+.RDataTmp
+
+# Output files
+*.pdf
+*.html
+*.docx
+*.xlsx
+*.csv
+*.txt
+
+# R package files
+*.Rcheck/
+*.tar.gz
+*.tgz
+*.zip 
