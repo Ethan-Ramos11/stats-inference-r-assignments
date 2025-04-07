@@ -14,6 +14,8 @@
 #Problem 8: 3.666667
 
 #Problem 9: 2.89 
+
+
 #---------------
 
 #1a - Valid probability mass function
@@ -68,3 +70,20 @@ two_digit <- 9/100
 three_digit <- 90/100
 expected_digits <- (one_digit) + (two_digit * 2) + (three_digit * 3)
 expected_digits
+
+#16a - 5 
+# Let 1 = correct and 0 = incorrect
+# To calculate, number of questions * probability of getting right answer
+
+exp_score <- 20 * (1/4)
+exp_score
+
+#16b - 1.386442
+# In order to answer this question, we need to calculate the probability mass function for a 
+# binomial distribution. We can use the built in binom function in R. Use a for loop to loop over the 
+# number correct answers >= 10
+sum <- 0
+for (x in 10:20) {
+  sum <- sum + dbinom(x, size = 20, prob=.25)
+}
+sum * 100
