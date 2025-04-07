@@ -10,6 +10,10 @@
 #Problem 1d: 3/4
 
 #Problem 5: 1.125
+
+#Problem 8: 3.666667
+
+#Problem 9: 2.89 
 #---------------
 
 #1a - Valid probability mass function
@@ -46,7 +50,7 @@ m
 #8 - 3.666667
 # There are 6 possible ways to draw two numbers of a set of 3 numbers without replacement. 
 # Each will have an equal probability because it is random being 1/6 (1/3 for the first choice * 
-#1/2 for the second choice) so to calculated the expected value multiple 1/6 by the possible products 
+# 1/2 for the second choice) so to calculated the expected value multiple 1/6 by the possible products 
 # Possible products are 2, 3, and 6 each happening twice depending on the order of the numbers drawn
 # You can change the probability to 1/3 accounting for two outcomes yielding the same result 
 #(1/6 * 2)  = 1/3
@@ -54,3 +58,13 @@ m
 m_hat <- (1/3 * 2) + (1/3 * 3) + (1/3 * 6)
 m_hat
 
+#9 - 2.89 
+# There are 10 1 digit numbers, 90 2 digit numbers, and 900 3 digit numbers 
+# Getting the probability of each 1 digit = 1/100, 2 digit = 9/100, 3 digit = 90/100
+# To get the expected digit multiply number of digits by probability of getting that many digits and 
+# summing them 
+one_digit <- 1/100
+two_digit <- 9/100
+three_digit <- 90/100
+expected_digits <- (one_digit) + (two_digit * 2) + (three_digit * 3)
+expected_digits
