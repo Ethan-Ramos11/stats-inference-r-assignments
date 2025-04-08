@@ -1,4 +1,4 @@
-#Chapter 3, Problems: 1, 5, 8, 9, 16, 18, 23,  25, 30. 
+#Chapter 3, Problems: 1, 5, 8, 9, 16, 18, 23, 25, 30. 
 
 #Chapter 5, Problems: 11, 13, 34
 
@@ -15,6 +15,21 @@
 
 #Problem 9: 2.89 
 
+#Problem 16a - 5 
+#Problem 16b - 1.386442%
+
+#Problem 18 - 1.499785%
+
+#Problem 23
+
+#Problem 25a
+#Problem 25b
+#Problem 25c
+
+#Problem 30a
+#Problem 30b
+#Problem 30c
+#Problem 30d
 
 #---------------
 
@@ -78,7 +93,7 @@ expected_digits
 exp_score <- 20 * (1/4)
 exp_score
 
-#16b - 1.386442
+#16b - 1.386442%
 # In order to answer this question, we need to calculate the probability mass function for a 
 # binomial distribution. We can use the built in binom function in R. Use a for loop to loop over the 
 # number correct answers >= 10
@@ -87,3 +102,27 @@ for (x in 10:20) {
   sum <- sum + dbinom(x, size = 20, prob=.25)
 }
 sum * 100
+
+#18 - 1.499785%
+# The probability of Curry shooting exactly 20 free throws = the probability that the first 
+# missed free throw is the 20th shot. This is ((.91) ^ 19) * .09 
+
+
+prob_twenty_shots  <- (.91 ** 19) * .09
+prob_twenty_shots * 100
+
+#23
+
+#25a
+
+#25b
+
+#25c
+
+#30a
+
+#30b
+
+#30c
+
+#30d
