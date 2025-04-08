@@ -4,33 +4,41 @@
 
 #---------------
 #Answers: 
-#Problem 1a: Valid probability mass function 
-#Problem 1b: 0.625
-#Problem 1c: 1/3 
-#Problem 1d: 3/4
+#Chapter 3:
+  #Problem 1a: Valid probability mass function 
+  #Problem 1b: 0.625
+  #Problem 1c: 1/3 
+  #Problem 1d: 3/4
+  
+  #Problem 5: 1.125
+  
+  #Problem 8: 3.666667
+  
+  #Problem 9: 2.89 
+  
+  #Problem 16a - 5 
+  #Problem 16b - 1.386442%
+  
+  #Problem 18 - 1.499785%
+  
+  #Problem 23 - 
+  
+  #Problem 25a - 
+  #Problem 25b -  
+  #Problem 25c - 
+  
+  #Problem 30a - 
+  #Problem 30b - 
+  #Problem 30c - 
+  #Problem 30d - 
 
-#Problem 5: 1.125
+#Chapter 5:
+  #Problem 11 - 
+  
+  #Problem 13a - 
+  #Problem 13b - 
 
-#Problem 8: 3.666667
-
-#Problem 9: 2.89 
-
-#Problem 16a - 5 
-#Problem 16b - 1.386442%
-
-#Problem 18 - 1.499785%
-
-#Problem 23
-
-#Problem 25a
-#Problem 25b
-#Problem 25c
-
-#Problem 30a
-#Problem 30b
-#Problem 30c
-#Problem 30d
-
+  #Problem 34 - 
 #---------------
 
 #1a - Valid probability mass function
@@ -126,3 +134,10 @@ prob_twenty_shots * 100
 #30c
 
 #30d
+
+# Chapter 5 11 - 
+
+#Chapter 5 13a - 
+#Chapter 5 13b - 
+
+#Chapter 5 34 - 
